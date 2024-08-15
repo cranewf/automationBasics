@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CashbackHackServiceTest {
     @Test
-    public void purchaseLessThan1000(){
+    public void purchaseLessThan1000() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
 
@@ -16,7 +16,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void purchaseMoreThan1000(){
+    public void purchaseMoreThan1000() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1200;
 
@@ -27,7 +27,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void purchaseEqualThan1000(){
+    public void purchaseEqualThan1000() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
